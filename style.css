@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Tangerine&display=swap');
+
+/*cookie cutter & globals*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Nunito', sans-serif;
+    font-size:60%;
+}
+
+body{
+    background-image:linear-gradient(to left,#649D9D, #FFC6C6);
+}
+
+main{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+
+/*dynamic & flex content*/
+
+.game-content{
+    width:70%;
+    height:70%;
+    background-color:rgba(255,255,255,60%);
+    border-radius: 20px;
+}
+
+.word-area{
+    height:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    font-family:Baskerville,sans-serif;
+}
+
+.tile-area{
+    margin-top:5%;
+    height:60%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tile{
+    margin-left:1%;
+    height:80px;
+    width:40px;
+    border-style: wave;
+    border-color: gray;
+    background-color: white;
+    border-radius:5px;
+}
+
