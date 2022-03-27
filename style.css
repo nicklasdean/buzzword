@@ -37,9 +37,10 @@ main{
 .word-area{
     height:40%;
     display:flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 5vh;
+    font-size: 4vw;
     font-family:Baskerville,sans-serif;
 }
 
