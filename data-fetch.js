@@ -1,6 +1,4 @@
 'use strict'
-import {schoolDictionaryKey} from './config.js'
-
 //How many can be guessed in 60 seconds?
 //Rounds
 //2 hints pr round
@@ -18,4 +16,4 @@ const fetchSingleDefinition = (word) => {
         .then(data => data);
 }
 
-fetchSingleDefinition('hello');
+console.log(fetchSingleDefinition('hello'));

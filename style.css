@@ -40,7 +40,7 @@ main{
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 4vw;
+    font-size: 5vw;
     font-family:Baskerville,sans-serif;
 }
 
@@ -60,5 +60,16 @@ main{
     border-color: gray;
     background-color: white;
     border-radius:5px;
+    font-size:6rem;
+    text-align:center;
+    caret-color: transparent;
 }
 
+input:focus, text:focus {
+    background-color: #FFC6C6;
+    border: 3px solid #649D9D;
+}
+
+button, #test{
+    padding: 10px;
+}

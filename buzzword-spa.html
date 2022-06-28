@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <title>✏️ Buzzword</title>
     <link rel="stylesheet" href="style.css">
-    <script src="config.js"></script>
+    <script defer type="module" src="tile-logic.js"></script>
     <script defer type="module" src="data-fetch.js"></script>
-    <link rel="stylesheet" href="test.css">
 </head>
 <body>
     <main>
         <section class="game-content">
             <section class="word-area">
                 <p>Used as a greeting or to begin a phone conversation.</p>
+
             </section>
             <section class="tile-area">
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
+                <input type="text" maxlength="1" class="tile">
+                <input type="text" maxlength="1" class="tile">
+                <input type="text" maxlength="1" class="tile">
+                <input type="text" maxlength="1" class="tile">
+                <input type="text" maxlength="1" class="tile">
             </section>
+            <button id="test">Hey - Test a new feature</button>
         </section>
     </main>
 </body>
